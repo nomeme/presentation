@@ -57,6 +57,10 @@
 
 ![](plantuml/thesis.svg)
 
+## Thesis
+
+![](plantuml/use_thesis.svg)
+
 # Occupation
 
 ## e.solutions

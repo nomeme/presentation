@@ -1,0 +1,42 @@
+@startuml
+
+''!include use.ipuml
+left to right direction
+
+actor David as me
+
+rectangle e.solutions{
+rectangle tests {
+usecase "Unit tests" as UT
+usecase "UI tests" as UI
+usecase "System tests" as ST
+
+UT -[hidden]- UI
+UI -[hidden]- ST
+}
+actor Jenkins as jk
+
+jk <-> UT
+jk <-> UI
+jk <-> ST
+
+rectangle thesis {
+usecase "REST service" as rest
+usecase "Data collection" as collect
+usecase "Data evaluation" as ev
+usecase "Prediction" as pd
+
+jk <-> rest
+
+rest --> collect
+collect --> ev
+ev --> pd
+}
+}
+
+me --> rest
+'me --> UI
+'me --> JK
+'me --> DF
+
+@enduml
