@@ -49,6 +49,10 @@
 
 ![](plantuml/working_student.svg)
 
+## Student work
+
+![](plantuml/use_student.svg)
+
 ## Thesis
 
 ![](plantuml/thesis.svg)

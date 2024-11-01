@@ -1,0 +1,17 @@
+@startuml
+
+!include use.ipuml
+
+rectangle e.solutions{
+usecase "Unit tests" as UT
+usecase "UI tests" as UI
+usecase "Jenkins" as JK
+usecase "Device flashing tool" as DF
+}
+
+me --> UT
+me --> UI
+me --> JK
+me --> DF
+
+@enduml
