@@ -1,0 +1,19 @@
+@startuml
+
+!include use.ipuml
+
+rectangle University{
+usecase "Distributed Internet Services" as DI
+usecase "Multimedia Communication" as MM
+usecase "Semantic Web" as SW
+usecase "Systemoriented Software" as SS
+usecase "Parallel Programming using C++" as PP
+}
+
+me --> DI
+me --> MM
+me --> SW
+me --> SS
+me --> PP
+
+@enduml

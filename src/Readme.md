@@ -33,6 +33,10 @@
 
 ![](plantuml/master.svg)
 
+## Education
+
+![](plantuml/use_master.svg)
+
 ## Internship
 
 ![](plantuml/internships.svg)
