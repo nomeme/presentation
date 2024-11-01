@@ -27,6 +27,10 @@
 
 ## Education
 
+![](plantuml/use_bachelor.svg)
+
+## Education
+
 ![](plantuml/master.svg)
 
 ## Internship

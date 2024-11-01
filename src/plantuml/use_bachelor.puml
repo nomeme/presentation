@@ -1,0 +1,21 @@
+@startuml
+
+!include use.ipuml
+
+actor David as me
+
+rectangle University{
+usecase "Fundamentals of Computerscience" as CS
+usecase "Fundamentals of Mathematics" as MM
+usecase "Fundamentals of Design" as D
+usecase "Media Psychology" as MP
+usecase "Interactive Systems" as IS
+}
+
+me --> CS
+me --> MM
+me --> D
+me --> MP
+me --> IS
+
+@enduml
