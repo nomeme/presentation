@@ -75,6 +75,10 @@
 
 ![](plantuml/eb.svg)
 
+## Elektrobit
+
+![](plantuml/use_eb.svg)
+
 ## Continental
 
 ![](plantuml/conti.svg)
