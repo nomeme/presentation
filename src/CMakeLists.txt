@@ -23,8 +23,8 @@ configure_file(
 ##
 add_custom_target(pandoc
     COMMAND pandoc -t beamer Readme.md -o ${CMAKE_BINARY_DIR}/Presentation.pdf
-    WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
     COMMENT "Run pandoc to create a pdf from markdown."
+    WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
     SOURCES ${CMAKE_CURRENT_BINARY_DIR}/Readme.md
     BYPRODUCTS ${CMAKE_BINARY_DIR}/Presentation.pdf
 )
