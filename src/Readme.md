@@ -41,6 +41,10 @@
 
 ![](plantuml/internships.svg)
 
+## Internship
+
+![](plantuml/use_intern.svg)
+
 ## Student work
 
 ![](plantuml/working_student.svg)

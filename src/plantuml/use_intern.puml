@@ -1,0 +1,17 @@
+@startuml
+
+!include use.ipuml
+
+rectangle Nokia{
+usecase "Manual tests" as MT
+usecase "Unit tests" as UT
+usecase "Bug fixing" as BF
+usecase "SW development" as SD
+}
+
+me --> MT
+me --> UT
+me --> BF
+me --> SD
+
+@enduml
