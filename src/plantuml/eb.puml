@@ -1,0 +1,12 @@
+@startuml
+
+!include eso.puml
+
+' Job at Elektrobit
+@2018/4/1 as :x
+Wk is EB
+' Job at Continental
+@2018/12/31
+Wk is {-}
+
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+
+!include working_student.puml
+
+' Master thesis
+@2014/7/1
+In is Thesis
+@2015/1/1
+In is {-}
+
+@enduml

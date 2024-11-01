@@ -1,0 +1,11 @@
+@startuml
+
+!include master.puml
+
+' Internships
+@2012/4/1
+In is Nokia
+@2012/8/1
+In is {-}
+
+@enduml

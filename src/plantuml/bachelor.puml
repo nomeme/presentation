@@ -1,0 +1,10 @@
+@startuml
+
+!include timing_base.ipuml
+
+@2008/10/1
+Ed is Bachelor
+@2012/4/1
+Ed is {-}
+
+@enduml

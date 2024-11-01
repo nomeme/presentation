@@ -1,0 +1,12 @@
+@startuml
+
+!include internships.puml
+
+' Working student
+@2013/4/1
+In is eso
+' Master thesis
+@2014/6/30
+In is {-}
+
+@enduml
