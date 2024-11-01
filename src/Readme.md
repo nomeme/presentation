@@ -4,9 +4,22 @@
 
 # Introduction
 
-## Chapter
+## Content
 
-* Bullet Point
+* About me
+* Educational background
+* Occupational background
+* Private background
+
+## About me
+
+* Name: David Jäckel
+* Age: 36
+* Location: Ulm
+* Degree: M.Sc. Medieninformatik
+* Occupation: Software Engineer since 2015
+
+# Education
 
 ## Education
 
@@ -28,6 +41,8 @@
 
 ![](plantuml/thesis.svg)
 
+# Occupation
+
 ## e.solutions
 
 ![](plantuml/eso.svg)
@@ -40,3 +55,4 @@
 
 ![](plantuml/conti.svg)
 
+# Private
