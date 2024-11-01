@@ -1,3 +1,5 @@
+add_subdirectory(plantuml)
+
 ##
 # Main target to build the presentation.
 ##
@@ -37,3 +39,12 @@ message(STATUS "pacman -Su pandoc")
 add_dependencies(presentation
     pandoc
 )
+
+##
+# Add the plantuml target as dependency of pandoc.
+# We need the images before we can run pandoc.
+##
+add_dependencies(pandoc
+    plantuml
+)
+

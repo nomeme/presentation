@@ -7,3 +7,7 @@
 ## Chapter
 
 * Bullet Point
+
+## Chapter
+
+![image](plantuml/base.svg)
