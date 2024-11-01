@@ -28,7 +28,7 @@
 
 ![](plantuml/thesis.svg)
 
-## Esolutions
+## e.solutions
 
 ![](plantuml/eso.svg)
 
