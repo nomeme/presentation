@@ -1,0 +1,20 @@
+@startuml
+
+<style>
+'rectangle {
+'  FontColor red
+'  MinimumWidth 500
+'  Margin 500 500 500 500
+'}
+
+document {
+'  BackgroundColor paleGreen
+  Margin 10 200 10 200
+}
+</style>
+
+left to right direction
+
+Actor David as me
+
+@enduml
