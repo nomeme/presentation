@@ -1,0 +1,19 @@
+@startuml
+
+!include use.ipuml
+
+actor David as me
+
+rectangle e.solutions {
+usecase "Androdid Application development" as AA
+usecase "Software tests" as ST
+usecase "Supervision of Students" as SoS
+usecase "Client contact and support" as CC
+}
+
+me --> AA
+me --> ST
+me --> SoS
+me --> CC
+
+@enduml

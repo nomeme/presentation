@@ -67,6 +67,10 @@
 
 ![](plantuml/eso.svg)
 
+## e.solutions
+
+![](plantuml/use_eso.svg)
+
 ## Elektrobit
 
 ![](plantuml/eb.svg)
