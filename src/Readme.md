@@ -104,7 +104,19 @@
 
 ## Rock climbing
 
+![](images/climb.jpg)
+
+## Rock climbing
+
 ![](plantuml/private/climbing.svg)
+
+## Hiking
+
+![](images/tent.jpg)
+
+## Hiking
+
+![](images/segla.jpg)
 
 ## Hiking
 
@@ -112,11 +124,27 @@
 
 ## Paragliding
 
+![](images/para.jpg)
+
+## Paragliding
+
 ![](plantuml/private/para.svg)
 
 ## Chaos Communication Congress
 
+![](images/ccc.jpg)
+
+## Chaos Communication Congress
+
 ![](plantuml/private/ccc.svg)
+
+## Makerspace
+
+![](images/talk.jpg)
+
+## Makerspace
+
+![](images/board.jpg)
 
 ## Makerspace
 

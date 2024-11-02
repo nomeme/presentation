@@ -1,4 +1,5 @@
 add_subdirectory(plantuml)
+add_subdirectory(images)
 
 ##
 # Main target to build the presentation.
