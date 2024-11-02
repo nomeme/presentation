@@ -88,3 +88,37 @@
 ![](plantuml/use_conti.svg)
 
 # Private
+
+## Hobbies
+
+* Music
+* Rock climbing
+* Hiking
+* Paragliding
+* Chaos Communication Congress
+* Makerspace
+
+## Music
+
+![](plantuml/private/music.svg)
+
+## Rock climbing
+
+![](plantuml/private/climbing.svg)
+
+## Hiking
+
+![](plantuml/private/hiking.svg)
+
+## Paragliding
+
+![](plantuml/private/para.svg)
+
+## Chaos Communication Congress
+
+![](plantuml/private/ccc.svg)
+
+## Makerspace
+
+![](plantuml/private/maker.svg)
+
