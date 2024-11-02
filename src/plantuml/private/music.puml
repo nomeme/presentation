@@ -1,0 +1,9 @@
+@startuml
+!include timing_base.ipuml
+
+@2009/1/1
+Mu is "Base player in Coverband"
+@2011/12/1
+Mu is {-}
+
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+!include para.puml
+
+' CCC
+@2016/1/1
+ccc is Active
+@2020/1/1
+ccc is {-}
+@2023/1/1
+ccc is Active
+
+@enduml

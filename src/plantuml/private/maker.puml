@@ -1,0 +1,14 @@
+@startuml
+!include ccc.puml
+
+' Makerspace
+@2018/1/1
+Mk is Visitor
+@2019/1/1
+Mk is Member
+@2022/1/1
+Mk is Inactive
+@2024/1/1
+Mk is Active
+
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+!include music.puml
+
+' Climbing
+@2012/1/1
+Rc is Gym
+@2014/1/1
+Rc is Outdoor
+@2016/1/1
+Rc is Alpine
+@2020/1/1
+Rc is Bouldering
+
+@enduml

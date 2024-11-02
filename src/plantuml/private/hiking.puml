@@ -1,0 +1,22 @@
+@startuml
+!include climbing.puml
+
+' Hiking
+@2017/1/1
+Lh is "Cross Alps"
+@2018/1/1
+Lh is "West Highland"
+@2019/1/1
+Lh is "Yosemite"
+@2020/1/1
+Lh is {-}
+@2021/1/1
+Lh is "Norway"
+@2022/1/1
+Lh is {-}
+@2023/1/1
+Lh is "Great Glenn"
+@2024/1/1
+Lh is {-}
+
+@enduml
