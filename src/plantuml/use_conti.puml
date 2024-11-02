@@ -1,0 +1,21 @@
+@startuml
+
+!include use.ipuml
+
+actor David as me
+
+rectangle Continental {
+usecase "3D sensor data visualization" as VS
+usecase "Optimizing GPU Hardware accelerator" as HA
+usecase "IPC Protocol via Shared-Memory & TCP" as IP
+usecase "IPC imrovement on ECU" as EC
+usecase "Supervision of Students" as SoS
+}
+
+me --> VS
+me --> HA
+me --> IP
+me --> EC
+me --> SoS
+
+@enduml
