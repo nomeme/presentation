@@ -1,0 +1,39 @@
+@startuml
+
+<style>
+timingDiagram {
+    LineColor #a9a9a9
+    FontColor #a9a9a9
+    robust {
+        LineColor #03cafc
+    }
+    concise {
+        LineColor #03cafc
+        FontColor #a9a9a9
+        BackgroundColor #222222
+    }
+}
+</style>
+
+skinparam BackgroundColor #121212
+
+skinparam usecase{
+    BorderColor #444444
+    BackgroundColor #222222
+    ArrowColor #03cafc
+    ActorBackgroundColor aqua
+    FontColor #c9c9c9
+}
+
+skinparam rectangle{
+    BorderColor #444444
+    FontColor #a9a9a9
+}
+
+skinparam actor{
+    BorderColor #a9a9a9
+    FontColor #c9c9c9
+    BackgroundColor #222222
+}
+
+@enduml

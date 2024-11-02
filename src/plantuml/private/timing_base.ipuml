@@ -1,7 +1,9 @@
 @startuml
+
+!include ../style.ipuml
+
 use date format "YYYY-MM"
 scale 31536000 as 80 pixels
-'manual time-axis
 
 concise "Music" as Mu
 concise "Rock climbing" as Rc
@@ -17,6 +19,6 @@ Lh is {-}
 Pg is {-}
 ccc is {-}
 Mk is {-}
-@2024/12/01
+@2022/12/01
 
 @enduml

@@ -1,5 +1,7 @@
 @startuml
 
+!include style.ipuml
+
 <style>
 'rectangle {
 '  FontColor red

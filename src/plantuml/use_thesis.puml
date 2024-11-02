@@ -1,6 +1,7 @@
 @startuml
 
-''!include use.ipuml
+!include style.ipuml
+
 left to right direction
 
 actor David as me

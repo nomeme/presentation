@@ -1,4 +1,7 @@
 @startuml
+
+!include style.ipuml
+
 use date format "YYYY-MM"
 scale 31536000 as 80 pixels
 'manual time-axis
@@ -11,6 +14,6 @@ concise "Work" as Wk
 Ed is {-}
 Wk is {-}
 In is {-}
-@2024/12/01
+@2022/12/01
 
 @enduml
