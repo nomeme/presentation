@@ -1,0 +1,22 @@
+@startuml
+use date format "YYYY-MM"
+scale 31536000 as 80 pixels
+'manual time-axis
+
+concise "Music" as Mu
+concise "Rock climbing" as Rc
+concise "Long distance hiking" as Lh
+concise "Paragliding" as Pg
+concise "Chaos Communication Congress" as ccc
+concise "Makerspace" as Mk
+
+@2008/01/01
+Mu is {-}
+Rc is {-}
+Lh is {-}
+Pg is {-}
+ccc is {-}
+Mk is {-}
+@2024/12/01
+
+@enduml
