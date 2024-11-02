@@ -19,11 +19,17 @@ configure_file(
     @ONLY
 )
 
+configure_file(
+    ${CMAKE_CURRENT_SOURCE_DIR}/header.tex
+    ${CMAKE_CURRENT_BINARY_DIR}/header.tex
+    COPYONLY
+)
+
 ##
 # Create the pdf presentation from markdown using the beamer template.
 ##
 add_custom_target(pandoc
-    COMMAND pandoc -t beamer Readme.md -o ${CMAKE_BINARY_DIR}/Presentation.pdf
+    COMMAND pandoc -t beamer Readme.md -o ${CMAKE_BINARY_DIR}/Presentation.pdf -H ${CMAKE_CURRENT_BINARY_DIR}/header.tex
     COMMENT "Run pandoc to create a pdf from markdown."
     WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
     SOURCES ${CMAKE_CURRENT_BINARY_DIR}/Readme.md
