@@ -14,8 +14,8 @@ add_custom_target(presentation)
 ##
 # TODO: get date from system and set it.
 configure_file(
-    ${CMAKE_CURRENT_SOURCE_DIR}/Readme.md
-    ${CMAKE_CURRENT_BINARY_DIR}/Readme.md
+    ${CMAKE_CURRENT_SOURCE_DIR}/Presentation.md
+    ${CMAKE_CURRENT_BINARY_DIR}/Presentation.md
     @ONLY
 )
 
@@ -29,10 +29,10 @@ configure_file(
 # Create the pdf presentation from markdown using the beamer template.
 ##
 add_custom_target(pandoc
-    COMMAND pandoc -t beamer Readme.md -o ${CMAKE_BINARY_DIR}/Presentation.pdf -H ${CMAKE_CURRENT_BINARY_DIR}/header.tex
+    COMMAND pandoc -t beamer Presentation.md -o ${CMAKE_BINARY_DIR}/Presentation.pdf -H ${CMAKE_CURRENT_BINARY_DIR}/header.tex
     COMMENT "Run pandoc to create a pdf from markdown."
     WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
-    SOURCES ${CMAKE_CURRENT_BINARY_DIR}/Readme.md
+    SOURCES ${CMAKE_CURRENT_BINARY_DIR}/Presentation.md
     BYPRODUCTS ${CMAKE_BINARY_DIR}/Presentation.pdf
 )
 
