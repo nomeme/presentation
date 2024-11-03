@@ -10,6 +10,7 @@ This project has following requirements.
 * Pandoc packages installed (`pacman -Su pandoc`)
 * Cmake packages installed (`pacman -Su cmake`)
 * Wget package installed (`pacman -Su wget`)
+* qrencode package installed (`pacman -Su qrencode`)
 
 ## Building
 
