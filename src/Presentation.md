@@ -150,3 +150,9 @@
 
 ![](plantuml/private/maker.svg)
 
+# Links
+
+## Links
+
+![github.com/nomeme/presentation](qrencode/qr.svg)
+

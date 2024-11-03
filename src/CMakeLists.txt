@@ -6,6 +6,8 @@ add_subdirectory(images)
 ##
 add_custom_target(presentation)
 
+add_subdirectory(qrencode)
+
 ##
 # This runs during configure step to set up
 # the build environment.
